@@ -1,0 +1,91 @@
+  body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f7f7f7;
+    }
+
+    .modal {
+        width: 380px;
+        background: #fff;
+        margin: 50px auto;
+        padding: 25px;
+        border-radius: 6px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .header a {
+        text-decoration: none;
+        color: #3aaa55;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+
+    .header span {
+        color: #999;
+    }
+
+    p.description {
+        text-align: center;
+        color: #666;
+        font-size: 14px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 15px;
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn-main {
+        background: #4CAF50;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .divider {
+        text-align: center;
+        margin: 20px 0;
+        color: #999;
+        font-size: 13px;
+    }
+
+    .divider:before,
+    .divider:after {
+        content: "";
+        display: inline-block;
+        width: 30%;
+        height: 1px;
+        background: #ddd;
+        vertical-align: middle;
+        margin: 0 8px;
+    }
+
+    .btn-google {
+        background: #fff;
+        border: 1px solid #ddd;
+    }
+
+    .btn-facebook {
+        background: #fff;
+        border: 1px solid #ddd;
+        margin-top: 10px;
+    }
