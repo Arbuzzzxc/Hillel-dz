@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraPro-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cera Pro', sans-serif;
+    background: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    gap: 50px;
+}
+
+.sidebar {
+    width: 310px;
+    background: #FBFBFB;
+    padding: 20px;
+}
+
+.sidebar-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.categories-list {
+    list-style: none;
+}
+
+.categories-list li {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.categories-list li.active {
+    color: #46A358;
+    font-weight: 600;
+}
+
+.sidebar-banner {
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sidebar-banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-title {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #46A358;
+    line-height: 1;
+}
+
+.banner-discount {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3D3D3D;
+    margin-top: 5px;
+}
+
+.products {
+    flex: 1;
+}
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.filters {
+    display: flex;
+    gap: 30px;
+}
+
+.filter {
+    cursor: pointer;
+}
+
+.filter.active {
+    color: #46A358;
+    border-bottom: 2px solid #46A358;
+    padding-bottom: 8px;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product-image {
+    background: #FBFBFB;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-card h4 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.price {
+    color: #46A358;
+    font-weight: 700;
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    gap: 10px;
+}
+
+.page {
+    padding: 8px 12px;
+    border: 1px solid #E5E5E5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page:hover {
+    background: #46A358;
+    color: #fff;
+    border-color: #46A358;
+}
+
+.page.active {
+    font-weight: 600;
+    background: #46A358;
+    color: #fff;
+    border-color: #46A358;
+}

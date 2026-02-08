@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GreenShop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <h3 class="sidebar-title">Categories</h3>
+
+        <ul class="categories-list">
+            <li class="active">House Plants</li>
+            <li>Potter Plants</li>
+            <li>Seeds</li>
+            <li>Small Plants</li>
+            <li>Big Plants</li>
+            <li>Succulents</li>
+            <li>Terrariums</li>
+            <li>Gardening</li>
+            <li>Accessories</li>
+        </ul>
+
+        <div class="sidebar-banner">
+            <img src="img7.1/plsalecard.png" alt="">
+            <div class="banner-text">
+                <span class="banner-title">Super Sale</span>
+                <span class="banner-discount">UP TO 75% OFF</span>
+            </div>
+        </div>
+    </aside>
+
+    <main class="products">
+        <div class="products-header">
+            <div class="filters">
+                <span class="filter active">All Plants</span>
+                <span class="filter">New Arrivals</span>
+                <span class="filter">Sale</span>
+            </div>
+            <div class="sort">Short by: Default sorting ▾</div>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl1.png" alt=""></div>
+                <h4>Barberton Daisy</h4>
+                <span class="price">$119.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl2.png" alt=""></div>
+                <h4>Angel Wing Begonia</h4>
+                <span class="price">$169.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl3.png" alt=""></div>
+                <h4>African Violet</h4>
+                <span class="price">$199.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl4.png" alt=""></div>
+                <h4>Beach Spider Lily</h4>
+                <span class="price">$129.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl5.png" alt=""></div>
+                <h4>Blushing Bromeliad</h4>
+                <span class="price">$139.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl6.png" alt=""></div>
+                <h4>Aluminum Plant</h4>
+                <span class="price">$179.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl7.png" alt=""></div>
+                <h4>Bird's Nest Fern</h4>
+                <span class="price">$99.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl8.png" alt=""></div>
+                <h4>Broadleaf Lady Palm</h4>
+                <span class="price">$59.00</span>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="img7.1/pl9.png" alt=""></div>
+                <h4>Chinese Evergreen</h4>
+                <span class="price">$39.00</span>
+            </div>
+        </div>
+
+        <div class="pagination">
+            <span class="page active">1</span>
+            <span class="page">2</span>
+            <span class="page">3</span>
+            <span class="page">4</span>
+            <span class="page">›</span>
+        </div>
+    </main>
+
+</div>
+
+</body>
+</html>
