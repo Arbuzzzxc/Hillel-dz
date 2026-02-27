@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenshop | Registration</title>
+    <style>
+        /* Твій оригінальний CSS з адаптацією під проект */
+        body {
+            margin: 0;
+            font-family: 'Cera Pro', Arial, sans-serif;
+            background: #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .modal {
+            width: 380px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 6px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .modal-header {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 18px;
+        }
+
+        .modal-header a {
+            text-decoration: none;
+            color: #3D3D3D;
+            font-weight: 500;
+        }
+
+        .modal-header .active {
+            color: #46a358; /* Твій колір */
+            font-weight: bold;
+        }
+
+        .modal-header span {
+            color: #E5E5E5;
+            margin: 0 10px;
+        }
+
+        p.description {
+            text-align: center;
+            color: #727272;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #EAEAEA;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #46a358;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            border: none;
+        }
+
+        .btn-main {
+            background: #46a358;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        .btn-main:hover {
+            background: #3a8a4a;
+        }
+
+        .divider {
+            text-align: center;
+            margin: 25px 0;
+            color: #3D3D3D;
+            font-size: 13px;
+            position: relative;
+        }
+
+        .divider:before,
+        .divider:after {
+            content: "";
+            display: inline-block;
+            width: 25%;
+            height: 1px;
+            background: #EAEAEA;
+            vertical-align: middle;
+            margin: 0 10px;
+        }
+
+        .social-btn {
+            background: #fff;
+            border: 1px solid #EAEAEA;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            color: #727272;
+            font-weight: normal;
+        }
+
+        .social-btn:hover {
+            background: #f9f9f9;
+        }
+
+        .social-btn img {
+            width: 18px;
+        }
+
+        .back-home {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: #46a358;
+            text-decoration: none;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="modal">
+        <div class="modal-header">
+            <a href="#">Login</a>
+            <span>|</span>
+            <a href="#" class="active">Register</a>
+        </div>
+
+        <p class="description">Enter your email and password to register.</p>
+
+        <form action="#">
+            <div class="form-group">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+
+            <button type="submit" class="btn-main">Register</button>
+        </form>
+
+        <div class="divider">Or register with</div>
+
+        <button type="button" class="social-btn">
+            <img src="IMG11/google1.svg" alt="Google">
+            Login with Google
+        </button>
+
+        <button type="button" class="social-btn">
+            <img src="IMG11/facebook1.png" alt="Facebook"> 
+            Login with Facebook
+        </button>
+
+        <a href="index.html" class="back-home">← Back to Shop</a>
+    </div>
+
+</body>
+</html>
